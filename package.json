@@ -2,15 +2,12 @@
   "name": "dragablecards",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mrsumityadav.github.io/Draggable-Cards",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^11.3.30",
